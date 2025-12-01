@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
 
     // Basic ping for health check
     socket.on('ping', (cb) => {
-        if(cb) cb('pong');
+        if (cb) cb('pong');
     });
 });
 
