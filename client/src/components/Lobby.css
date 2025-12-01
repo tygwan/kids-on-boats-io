@@ -1,0 +1,52 @@
+.lobby {
+    background: rgba(26, 35, 50, 0.9);
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+}
+
+.lobby h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: #a8dadc;
+}
+
+.players {
+    margin: 24px 0;
+}
+
+.players h3 {
+    color: #2d8b8b;
+    margin-bottom: 16px;
+}
+
+.players ul {
+    list-style: none;
+    padding: 0;
+}
+
+.players li {
+    background: rgba(45, 139, 139, 0.2);
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.start-btn {
+    margin-top: 24px;
+    padding: 16px 32px;
+    background: #2d8b8b;
+    color: #f1faee;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+    background: #3da3a3;
+    transform: scale(1.05);
+}
